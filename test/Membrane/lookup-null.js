@@ -5,7 +5,7 @@
  description: Membrane proxies must correctly report null on demand.
  esid: pending
  features: [Proxy,WeakMap,Reflect,Map]
- includes: [integration-Membrane.js]
+ includes: [Membrane.js]
 ---*/
 
 const M = new Membrane();

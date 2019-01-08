@@ -5,7 +5,7 @@
  description: Ensure wrapping and unwrapping of object prototypes is correct.
  esid: pending
  features: [Proxy,WeakMap,Reflect,Map]
- includes: [integration-Membrane.js]
+ includes: [Membrane.js]
 ---*/
 
 const M = new Membrane();
@@ -20,7 +20,7 @@ const wetObject = M.convertToProxy(rawObject, wetGraph, true);
 const dryObject = M.convertToProxy(wetObject, dryGraph);
 
 /* Ideally, this wouldn't be necessary beforehand... but I think the sample
- * Membrane implementation in harness/integration-Membrane.js would require it.
+ * Membrane implementation in harness/Membrane.js would require it.
  */
 M.convertToProxy(wetObject.prototype, wetGraph, true);
 const dryProto = M.convertToProxy(wetObject.prototype, dryGraph);

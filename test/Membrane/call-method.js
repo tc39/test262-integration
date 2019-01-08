@@ -5,7 +5,7 @@
  description: Call a method of a Membrane proxy.
  esid: pending
  features: [Proxy,WeakMap,Reflect,Map]
- includes: [integration-Membrane.js]
+ includes: [Membrane.js]
 ---*/
 
 const M = new Membrane();

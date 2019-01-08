@@ -5,7 +5,7 @@
  description: Exercise the conversion, via WeakMap, of an object into a Proxy and back.
  esid: pending
  features: [Proxy,WeakMap,Reflect,Map]
- includes: [integration-Membrane.js]
+ includes: [Membrane.js]
 ---*/
 
 const M = new Membrane();

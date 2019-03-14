@@ -17,7 +17,7 @@ cd $TEST262_HARNESS_PATH
 echo "Copying files from $TEST262_HARNESS_PATH into $TARGET_HARNESS_PATH"
 cp -f *.js $TARGET_HARNESS_PATH
 
-echo "Returing to $TARGET_ROOT_PATH"
+echo "Returning to $TARGET_ROOT_PATH"
 cd $TARGET_ROOT_PATH
 
 echo "Harness helper file sync is complete"

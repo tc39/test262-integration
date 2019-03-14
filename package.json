@@ -1,0 +1,18 @@
+{
+  "name": "test262-integration",
+  "version": "3.0.0",
+  "description": "Test262 Integration tests novel feature integrations and use cases.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tc39/test262-integration.git"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/tc39/test262-integration/issues"
+  },
+  "private": true,
+  "homepage": "https://github.com/tc39/test262-integration#readme",
+  "scripts": {
+    "sync-harness": "./scripts/sync-harness.sh"
+  }
+}
